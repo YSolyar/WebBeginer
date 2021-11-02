@@ -2,19 +2,19 @@ body{
     margin: 0;
 }
 header{
-    background: black;
+    background: #003638;
     height: 100px;
     width: 100%;
 }
 nav{
-    background: orange;
+    background:#53B8BB ;
     height: 100px;
     width: 100px;
     float:right;
     transition: 0.9s;
 }
 nav:hover{
-    background: orangered;
+    background: #3a4f92;
 }
 nav img{
     height: 30px;
@@ -25,21 +25,4 @@ nav img{
 img{
     height: 100px;
     float: left;
-}
-header ul{
-    display: inline-block;
-}
-header ul li{
-    display: inline-block;
-    margin-top: 20px;
-}
-header ul li a{
-    color:white;
-    text-decoration: none;
-    font-size: 25px;
-    margin-right: 50px;
-    transition: color 0.5s;
-}
-header ul li a:hover{
-    color: orange;
 }

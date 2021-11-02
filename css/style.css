@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+header{
+    background: black;
+    height: 100px;
+    width: 100%;
+}
+nav{
+    background: orange;
+    height: 100px;
+    width: 100px;
+    float:right;
+    transition: 0.9s;
+}
+nav:hover{
+    background: orangered;
+}
+nav img{
+    height: 30px;
+    width: 30px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+img{
+    height: 100px;
+    float: left;
+}
